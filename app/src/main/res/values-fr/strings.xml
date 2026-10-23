@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SkipMate</string>
+    <string name="app_tagline">Regardez vos vidéos. Évitez les interruptions.</string>
+    <string name="app_subtitle">Votre compagnon vidéo mains libres</string>
+
+    <string name="accessibility_service_label">Assistant de saut de pubs SkipMate</string>
+    <string name="accessibility_service_description">SkipMate utilise les fonctionnalités d\'accessibilité d\'Android exclusivement pour détecter l\'apparition du bouton officiel « Ignorer l\'annonce » sur YouTube et cliquer dessus automatiquement.</string>
+
+    <string name="status_auto_skip_on">Saut automatique : ACTIVÉ</string>
+    <string name="status_auto_skip_off">Saut automatique : DÉSACTIVÉ</string>
+    <string name="status_permission_required">Autorisation d\'accessibilité requise</string>
+    <string name="status_youtube_not_detected">YouTube non détecté</string>
+    <string name="status_monitoring_available">Surveillance disponible</string>
+    <string name="status_skip_button_not_detected">Bouton de saut non détecté</string>
+    <string name="status_skip_attempted">Tentative de saut</string>
+    <string name="status_interaction_unconfirmed">Interaction non confirmée</string>
+
+    <string name="card_automatic_skip_title">Saut automatique</string>
+    <string name="card_automatic_skip_desc">Active automatiquement les commandes de saut YouTube compatibles lorsqu\'elles sont disponibles.</string>
+    <string name="desc_auto_skip_disabled">Le saut automatique est désactivé.</string>
+    <string name="desc_permission_missing">Activez le service d\'accessibilité pour continuer.</string>
+    <string name="desc_service_active">Service de saut de publicités actif</string>
+    <string name="home_pro_banner_title">👑 Passer à SkipMate Pro</string>
+    <string name="home_pro_banner_desc">Essai gratuit de 7 jours ! À partir de ₹9/mois ou -25% par an.</string>
+    <string name="home_stat_total_skips">Sauts totaux</string>
+    <string name="home_stat_last_skip">Dernière activité</string>
+    <string name="home_stat_status">État du service</string>
+
+    <string name="action_configure_permissions">Configurer les autorisations</string>
+    <string name="action_open_youtube">Ouvrir YouTube</string>
+    <string name="action_diagnostics">Diagnostics</string>
+    <string name="action_settings">Paramètres</string>
+
+    <string name="onboarding_headline">Vos vidéos. Moins d\'interruptions.</string>
+    <string name="onboarding_description">SkipMate vous aide à activer automatiquement les commandes de saut YouTube lorsqu\'elles sont disponibles.</string>
+    <string name="onboarding_button_get_started">Commencer</string>
+    <string name="onboarding_secondary_text">Vous gardez le contrôle. Activez ou désactivez la fonctionnalité quand vous le souhaitez.</string>
+
+    <string name="permission_guide_title">Configuration de l\'accessibilité</string>
+    <string name="permission_step_1">1. Ouvrir les paramètres d\'accessibilité</string>
+    <string name="permission_step_1_desc">Appuyez sur le bouton ci-dessous pour accéder directement à l\'accessibilité.</string>
+    <string name="permission_step_2">2. Trouver SkipMate</string>
+    <string name="permission_step_2_desc">Sous « Applications téléchargées », sélectionnez SkipMate.</string>
+    <string name="permission_step_3">3. Activer le service</string>
+    <string name="permission_step_3_desc">Basculez le bouton sur ACTIVÉ et confirmez.</string>
+    <string name="permission_step_4">4. Revenir à SkipMate</string>
+    <string name="permission_step_4_desc">Revenez ici. Votre statut passera automatiquement à Prêt.</string>
+    <string name="permission_open_settings_button">Ouvrir les paramètres d\'accessibilité</string>
+
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_section_general">Général</string>
+    <string name="settings_target_app">Application cible</string>
+    <string name="settings_theme">Thème</string>
+    <string name="settings_theme_system">Par défaut du système</string>
+    <string name="settings_theme_light">Clair</string>
+    <string name="settings_theme_dark">Sombre</string>
+    <string name="settings_logging_title">Journal de diagnostic</string>
+    <string name="settings_logging_desc">Enregistrer les événements locaux pour diagnostiquer les problèmes.</string>
+    <string name="settings_privacy_policy">Politique de confidentialité</string>
+    <string name="settings_about">À propos de SkipMate &amp; Politiques</string>
+    <string name="settings_about_desc">Mission, Fondateur Abhishek K R, Droits, Cookies</string>
+    <string name="settings_disable_instructions_title">Comment désactiver</string>
+    <string name="settings_disable_instructions_desc">Vous pouvez désactiver le saut automatique via l\'interrupteur principal à tout moment.</string>
+    <string name="app_language_title">Langue de l\'application</string>
+    <string name="rate_us_title">Notez-nous sur Google Play</string>
+    <string name="rate_us_desc">Vous appréciez SkipMate ? Laissez-nous 5 étoiles !</string>
+    <string name="logout_title">Session &amp; Compte</string>
+    <string name="logout_desc">SkipMate fonctionne à 100% localement sans mot de passe ni compte cloud.</string>
+    <string name="logout_btn">Réinitialiser la session &amp; Se déconnecter</string>
+    <string name="logout_dialog_title">Réinitialiser la session ?</string>
+    <string name="logout_dialog_body">Cela restaurera toutes les préférences aux valeurs d\'usine.</string>
+    <string name="logout_confirm">Réinitialiser</string>
+    <string name="cancel">Annuler</string>
+
+    <string name="diagnostics_title">Diagnostics</string>
+    <string name="diagnostics_clear_logs">Effacer les journaux</string>
+    <string name="diagnostics_no_events">Aucun événement de diagnostic enregistré pour le moment.</string>
+    <string name="diagnostics_event_count">Événements enregistrés : %1$d</string>
+
+    <string name="about_title">À propos &amp; Politiques</string>
+    <string name="about_app_name">SkipMate v1.0.0</string>
+    <string name="about_app_heading">À propos de l\'application</string>
+    <string name="about_app_body">Conçue pour rendre votre expérience YouTube plus pratique, cette application vise à réduire les tracas liés au saut manuel des publicités lorsque vous êtes occupé, mangez ou loin de votre téléphone.</string>
+    <string name="about_mission_heading">Notre mission</string>
+    <string name="about_mission_body">Rendre la consommation de contenu numérique plus fluide, pratique et conviviale grâce à des solutions technologiques pratiques.</string>
+    <string name="about_founder_heading">Fondateur &amp; Développeur</string>
+    <string name="about_founder_name">Abhishek K R</string>
+    <string name="about_founder_role">Développeur principal et architecte logiciel\nDédié à la création d\'applications Android natives respectueuses de la vie privée.</string>
+    <string name="about_founder_contact">Contact : support@skipmate.local • Bangalore, Inde</string>
+    <string name="about_accessibility_disclosure_title">Divulgation relative à l\'accessibilité Google Play</string>
+    <string name="about_accessibility_disclosure_body">Divulgation visible &amp; consentement explicite :\n\nSkipMate utilise l\'API AccessibilityService exclusivement pour détecter quand le bouton « Ignorer » devient cliquable.\n\n• Zéro collecte de données personnelles.\n• Fonctionnement 100% hors ligne : aucune autorisation Internet.\n• Conforme aux conditions d\'utilisation de YouTube.</string>
+    <string name="about_accessibility_footer">Conforme aux politiques de Google Play.</string>
+    <string name="about_copyright_title">Droits d\'auteur &amp; Marques déposées</string>
+    <string name="about_copyright_body">© 2026 SkipMate par Abhishek K R. Tous droits réservés.\n\nYouTube est une marque déposée de Google LLC.</string>
+    <string name="about_cookies_title">Politique sur les cookies et le stockage local</string>
+    <string name="about_cookies_body">• Zéro cookie Web : SkipMate est une application Android native sans aucun tracker.\n\n• Préférences locales sécurisées : Stockées localement avec Jetpack DataStore.</string>
+
+    <!-- Subscription & Pro -->
+    <string name="subscription_title">SkipMate Pro</string>
+    <string name="subscription_tagline">Regardez vos vidéos. Évitez les interruptions.</string>
+    <string name="pro_badge">PRO</string>
+    <string name="trial_badge">ESSAI GRATUIT DE 7 JOURS</string>
+    <string name="trial_title">Commencez votre essai gratuit de 7 jours</string>
+    <string name="trial_desc">Profitez de toutes les fonctionnalités Pro pendant 7 jours avec 0 € facturé aujourd\'hui. Annulez à tout moment.</string>
+    <string name="plan_monthly">Abonnement Mensuel</string>
+    <string name="plan_monthly_desc">Facturation mensuelle flexible. Annulable à tout moment.</string>
+    <string name="plan_yearly">Abonnement Annuel</string>
+    <string name="plan_yearly_desc">Meilleure offre ! 25% de réduction appliquée.</string>
+    <string name="plan_yearly_save">-25% DE RÉDUCTION</string>
+    <string name="limited_offer_title">⚡ Offre de bienvenue : -25% sur le plan annuel</string>
+    <string name="limited_offer_desc">Offre limitée d\'une heure pour les nouveaux utilisateurs ! Se termine dans :</string>
+    <string name="need_help">Besoin d\'aide ?</string>
+    <string name="currency_selector">Devise de facturation :</string>
+    <string name="btn_start_trial">Démarrer l\'essai de 7 jours</string>
+    <string name="btn_subscribe_now">S\'abonner à SkipMate Pro</string>
+    <string name="payment_gateway_title">Sélectionnez le mode de paiement</string>
+    <string name="payment_upi">UPI (GPay, PhonePe, Paytm, BHIM)</string>
+    <string name="payment_cards">Cartes de crédit / débit (Visa, Mastercard)</string>
+    <string name="payment_netbanking">Banque en ligne (Plus de 50 banques)</string>
+    <string name="payment_wallets">Portefeuilles &amp; Facturation Google Play</string>
+    <string name="pay_now">Procéder au paiement</string>
+    <string name="payment_secure">🔒 Paiement sécurisé et crypté à 128 bits</string>
+    <string name="pro_features_title">Ce qui est inclus dans SkipMate Pro</string>
+    <string name="sub_feature_1">Moteur d\'auto-skip instantané sans latence</string>
+    <string name="sub_feature_2">Reconnaissance multilingue du lecteur YouTube</string>
+    <string name="sub_feature_3">Détection intelligente optimisée pour la batterie</string>
+    <string name="sub_feature_4">Zéro télémétrie réseau &amp; 100% hors ligne</string>
+    <string name="sub_feature_5">Support exclusif de l\'équipe</string>
+</resources>

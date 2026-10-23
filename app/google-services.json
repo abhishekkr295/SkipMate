@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "997246094561",
+    "project_id": "skipmate295",
+    "storage_bucket": "skipmate295.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997246094561:android:b3508f33934f595ea0bba0",
+        "android_client_info": {
+          "package_name": "skipmate.inc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARvruyONvzB8LVLGKNZ2cjMC3rd60R2LE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997246094561:android:b3508f33934f595ea0bba0",
+        "android_client_info": {
+          "package_name": "com.skipmate.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARvruyONvzB8LVLGKNZ2cjMC3rd60R2LE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

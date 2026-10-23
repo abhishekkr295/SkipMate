@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SkipMate</string>
+    <string name="app_tagline">ವೀಡಿಯೊಗಳನ್ನು ವೀಕ್ಷಿಸಿ. ಜಾಹೀರಾತಿನ ಕಿರಿಕಿರಿಯಿಂದ ಮುಕ್ತಿ ಪಡೆಯಿರಿ.</string>
+    <string name="app_subtitle">ನಿಮ್ಮ ಹ್ಯಾಂಡ್ಸ್-ಫ್ರೀ ವೀಡಿಯೊ ಒಡನಾಡಿ</string>
+
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_label">SkipMate ಜಾಹೀರಾತು ಸ್ಕಿಪ್ ಸಹಾಯಕ</string>
+    <string name="accessibility_service_description">ಅಧಿಕೃತ YouTube "Skip Ads" ಬಟನ್ ಯಾವಾಗ ಗೋಚರಿಸುತ್ತದೆ ಎಂಬುದನ್ನು ಪತ್ತೆಹಚ್ಚಲು SkipMate Android ಪ್ರವೇಶಿಸುವಿಕೆ ಸಾಮರ್ಥ್ಯಗಳನ್ನು ಬಳಸುತ್ತದೆ ಮತ್ತು ಹ್ಯಾಂಡ್ಸ್-ಫ್ರೀ ವೀಕ್ಷಣೆಯ ಅನುಕೂಲಕ್ಕಾಗಿ ಅದನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಕ್ಲಿಕ್ ಮಾಡುತ್ತದೆ.</string>
+
+    <!-- Dashboard Status Strings -->
+    <string name="status_auto_skip_on">ಸ್ವಯಂಚಾಲಿತ ಸ್ಕಿಪ್: ಆನ್</string>
+    <string name="status_auto_skip_off">ಸ್ವಯಂಚಾಲಿತ ಸ್ಕಿಪ್: ಆಫ್</string>
+    <string name="status_permission_required">ಪ್ರವೇಶಿಸುವಿಕೆ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ</string>
+    <string name="status_youtube_not_detected">YouTube ಪತ್ತೆಯಾಗಿಲ್ಲ</string>
+    <string name="status_monitoring_available">ಮೇಲ್ವಿಚಾರಣೆ ಲಭ್ಯವಿದೆ</string>
+    <string name="status_skip_button_not_detected">ಸ್ಕಿಪ್ ಬಟನ್ ಪತ್ತೆಯಾಗಿಲ್ಲ</string>
+    <string name="status_skip_attempted">ಸ್ಕಿಪ್ ಪ್ರಯತ್ನಿಸಲಾಗಿದೆ</string>
+    <string name="status_interaction_unconfirmed">ಸಂಪರ್ಕ ದೃಢೀಕರಿಸಲಾಗಿಲ್ಲ</string>
+
+    <!-- Home Cards -->
+    <string name="card_automatic_skip_title">ಸ್ವಯಂಚಾಲಿತ ಸ್ಕಿಪ್</string>
+    <string name="card_automatic_skip_desc">ಬೆಂಬಲಿತ YouTube ಸ್ಕಿಪ್ ಬಟನ್ ಲಭ್ಯವಾದಾಗ ಅದನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+    <string name="desc_auto_skip_disabled">ಸ್ವಯಂಚಾಲಿತ ಸ್ಕಿಪ್ ಮಾಡುವುದನ್ನು ಆಫ್ ಮಾಡಲಾಗಿದೆ.</string>
+    <string name="desc_permission_missing">ಮುಂದುವರಿಯಲು ಪ್ರವೇಶಿಸುವಿಕೆ ಸೇವೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+    <string name="desc_service_active">ಜಾಹೀರಾತು ಸ್ಕಿಪ್ ಸೇವೆ ಸಕ್ರಿಯವಾಗಿದೆ</string>
+    <string name="home_pro_banner_title">👑 SkipMate Pro ಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ</string>
+    <string name="home_pro_banner_desc">7 ದಿನಗಳ ಉಚಿತ ಪ್ರಯೋಗ ಪ್ರಾರಂಭಿಸಿ! ತಿಂಗಳಿಗೆ ₹9 ಅಥವಾ ವಾರ್ಷಿಕದಲ್ಲಿ 25% ರಿಯಾಯಿತಿ.</string>
+    <string name="home_stat_total_skips">ಒಟ್ಟು ಸ್ಕಿಪ್‌ಗಳು</string>
+    <string name="home_stat_last_skip">ಕೊನೆಯ ಚಟುವಟಿಕೆ</string>
+    <string name="home_stat_status">ಸೇವಾ ಸ್ಥಿತಿ</string>
+
+    <!-- Quick Actions -->
+    <string name="action_configure_permissions">ಅನುಮತಿಗಳನ್ನು ಹೊಂದಿಸಿ</string>
+    <string name="action_open_youtube">YouTube ತೆರೆಯಿರಿ</string>
+    <string name="action_diagnostics">ಡಯಾಗ್ನೋಸ್ಟಿಕ್ಸ್</string>
+    <string name="action_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_headline">ನಿಮ್ಮ ವೀಡಿಯೊಗಳು. ಕಡಿಮೆ ಅಡೆತಡೆಗಳು.</string>
+    <string name="onboarding_description">ಲಭ್ಯವಿರುವಾಗ YouTube ಸ್ಕಿಪ್ ನಿಯಂತ್ರಣಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸಕ್ರಿಯಗೊಳಿಸಲು SkipMate ನಿಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.</string>
+    <string name="onboarding_button_get_started">ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="onboarding_secondary_text">ನಿಯಂತ್ರಣ ನಿಮ್ಮ ಕೈಯಲ್ಲಿದೆ. ನೀವು ಬಯಸಿದಾಗ ಈ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಆನ್ ಅಥವಾ ಆಫ್ ಮಾಡಿ.</string>
+
+    <!-- Permission Guide -->
+    <string name="permission_guide_title">ಪ್ರವೇಶಿಸುವಿಕೆ ಸೆಟಪ್</string>
+    <string name="permission_step_1">1. ಪ್ರವೇಶಿಸುವಿಕೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ</string>
+    <string name="permission_step_1_desc">ನೇರವಾಗಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಹೋಗಲು ಕೆಳಗಿನ ಬಟನ್ ಒತ್ತಿ.</string>
+    <string name="permission_step_2">2. SkipMate ಹುಡುಕಿ</string>
+    <string name="permission_step_2_desc">"ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು" ಅಡಿಯಲ್ಲಿ SkipMate ಆಯ್ಕೆಮಾಡಿ.</string>
+    <string name="permission_step_3">3. ಸೇವೆಯನ್ನು ಆನ್ ಮಾಡಿ</string>
+    <string name="permission_step_3_desc">ಸ್ವಿಚ್ ಆನ್ ಮಾಡಿ ಮತ್ತು ಅನುಮತಿ ದೃಢೀಕರಿಸಿ.</string>
+    <string name="permission_step_4">4. SkipMate ಗೆ ಹಿಂತಿರುಗಿ</string>
+    <string name="permission_step_4_desc">ಇಲ್ಲಿಗೆ ಹಿಂತಿರುಗಿ. ನಿಮ್ಮ ಸ್ಥಿತಿ ಸಿದ್ಧವಾಗಿದೆ ಎಂದು ತೋರಿಸುತ್ತದೆ.</string>
+    <string name="permission_open_settings_button">ಪ್ರವೇಶಿಸುವಿಕೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ</string>
+
+    <!-- Settings -->
+    <string name="settings_title">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="settings_section_general">ಸಾಮಾನ್ಯ</string>
+    <string name="settings_target_app">ಟಾರ್ಗೆಟ್ ಅಪ್ಲಿಕೇಶನ್</string>
+    <string name="settings_theme">ಥೀಮ್</string>
+    <string name="settings_theme_system">ಸಿಸ್ಟಮ್ ಡೀಫಾಲ್ಟ್</string>
+    <string name="settings_theme_light">ಲೈಟ್</string>
+    <string name="settings_theme_dark">ಡಾರ್ಕ್</string>
+    <string name="settings_logging_title">ಡಯಾಗ್ನೋಸ್ಟಿಕ್ ಲಾಗಿಂಗ್</string>
+    <string name="settings_logging_desc">ಸಮಸ್ಯೆಗಳನ್ನು ಪತ್ತೆಹಚ್ಚಲು ಸ್ಥಳೀಯ ಈವೆಂಟ್‌ಗಳನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಿ.</string>
+    <string name="settings_privacy_policy">ಗೌಪ್ಯತಾ ನೀತಿ</string>
+    <string name="settings_about">SkipMate ಮತ್ತು ನೀತಿಗಳ ಬಗ್ಗೆ</string>
+    <string name="settings_about_desc">ಮಿಷನ್, ಸ್ಥಾಪಕ ಅಭಿಷೇಕ್ ಕೆ ಆರ್, ಹಕ್ಕುಸ್ವಾಮ್ಯ, ಕುಕೀಸ್</string>
+    <string name="settings_disable_instructions_title">ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವುದು ಹೇಗೆ</string>
+    <string name="settings_disable_instructions_desc">ನೀವು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಮುಖ್ಯ ಸ್ವಿಚ್ ಬಳಸಿ ಸ್ವಯಂಚಾಲಿತ ಸ್ಕಿಪ್ ಅನ್ನು ಆಫ್ ಮಾಡಬಹುದು.</string>
+    <string name="app_language_title">ಅಪ್ಲಿಕೇಶನ್ ಭಾಷೆ</string>
+    <string name="rate_us_title">Google Play ನಲ್ಲಿ ರೇಟ್ ಮಾಡಿ</string>
+    <string name="rate_us_desc">ಹ್ಯಾಂಡ್ಸ್-ಫ್ರೀ ವೀಕ್ಷಣೆಯನ್ನು ಆನಂದಿಸುತ್ತಿದ್ದೀರಾ? ನಮಗೆ 5 ಸ್ಟಾರ್ ನೀಡಿ!</string>
+    <string name="logout_title">ಸೆಷನ್ ಮತ್ತು ಖಾತೆ</string>
+    <string name="logout_desc">SkipMate ಯಾವುದೇ ಪಾಸ್‌ವರ್ಡ್ ಇಲ್ಲದೆ 100% ಸ್ಥಳೀಯವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.</string>
+    <string name="logout_btn">ಸೆಷನ್ ಮರುಹೊಂದಿಸಿ ಮತ್ತು ಸೈನ್ ಔಟ್ ಮಾಡಿ</string>
+    <string name="logout_dialog_title">ಸೆಷನ್ ಮರುಹೊಂದಿಸಿ ಮತ್ತು ಸೈನ್ ಔಟ್ ಮಾಡುವುದೇ?</string>
+    <string name="logout_dialog_body">ಇದು ಎಲ್ಲಾ ಆದ್ಯತೆಗಳನ್ನು ಫ್ಯಾಕ್ಟರಿ ಡೀಫಾಲ್ಟ್‌ಗಳಿಗೆ ಮರುಹೊಂದಿಸುತ್ತದೆ.</string>
+    <string name="logout_confirm">ಮರುಹೊಂದಿಸಿ ಮತ್ತು ಸೈನ್ ಔಟ್ ಮಾಡಿ</string>
+    <string name="cancel">ರದ್ದುಮಾಡಿ</string>
+
+    <!-- Diagnostics -->
+    <string name="diagnostics_title">ಡಯಾಗ್ನೋಸ್ಟಿಕ್ಸ್</string>
+    <string name="diagnostics_clear_logs">ಲಾಗ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ</string>
+    <string name="diagnostics_no_events">ಇನ್ನೂ ಯಾವುದೇ ಡಯಾಗ್ನೋಸ್ಟಿಕ್ ಈವೆಂಟ್‌ಗಳನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಲಾಗಿಲ್ಲ.</string>
+    <string name="diagnostics_event_count">ದಾಖಲಾದ ಈವೆಂಟ್‌ಗಳು: %1$d</string>
+
+    <!-- About & Privacy -->
+    <string name="about_title">ಕುರಿತು ಮತ್ತು ನೀತಿಗಳು</string>
+    <string name="about_app_name">SkipMate v1.0.0</string>
+    <string name="about_app_heading">ಅಪ್ಲಿಕೇಶನ್ ಬಗ್ಗೆ</string>
+    <string name="about_app_body">ನಿಮ್ಮ YouTube ಅನುಭವವನ್ನು ಹೆಚ್ಚು ಅನುಕೂಲಕರವಾಗಿಸಲು ವಿನ್ಯಾಸಗೊಳಿಸಲಾದ ಈ ಅಪ್ಲಿಕೇಶನ್, ನೀವು ಕಾರ್ಯನಿರತರಾಗಿರುವಾಗ, ಊಟ ಮಾಡುವಾಗ ಅಥವಾ ನಿಮ್ಮ ಫೋನ್‌ನಿಂದ ದೂರದಲ್ಲಿರುವಾಗ ಜಾಹೀರಾತುಗಳನ್ನು ಹಸ್ತಚಾಲಿತವಾಗಿ ಬಿಟ್ಟುಬಿಡುವ ತೊಂದರೆಯನ್ನು ಕಡಿಮೆ ಮಾಡುವ ಗುರಿಯನ್ನು ಹೊಂದಿದೆ. ಕನಿಷ್ಠ ಬಳಕೆದಾರರ ಸಂವಹನದೊಂದಿಗೆ ಚುರುಕಾದ, ಹೆಚ್ಚು ಅನುಕೂಲಕರವಾದ ವೀಕ್ಷಣೆಯ ಅನುಭವವನ್ನು ರಚಿಸುವುದು ನಮ್ಮ ಗುರಿಯಾಗಿದೆ.</string>
+    <string name="about_mission_heading">ನಮ್ಮ ಮಿಷನ್</string>
+    <string name="about_mission_body">ಪ್ರಾಯೋಗಿಕ ತಂತ್ರಜ್ಞಾನ ಪರಿಹಾರಗಳ ಮೂಲಕ ಡಿಜಿಟಲ್ ವಿಷಯ ಬಳಕೆಯನ್ನು ಹೆಚ್ಚು ತಡೆರಹಿತ, ಅನುಕೂಲಕರ ಮತ್ತು ಬಳಕೆದಾರ ಸ್ನೇಹಿಯನ್ನಾಗಿ ಮಾಡಲು.</string>
+    <string name="about_founder_heading">ಸ್ಥಾಪಕರು ಮತ್ತು ಡೆವಲಪರ್</string>
+    <string name="about_founder_name">ಅಭಿಷೇಕ್ ಕೆ ಆರ್ (Abhishek K R)</string>
+    <string name="about_founder_role">ಮುಖ್ಯ ಡೆವಲಪರ್ ಮತ್ತು ಸಾಫ್ಟ್‌ವೇರ್ ಆರ್ಕಿಟೆಕ್ಟ್\nಗೌಪ್ಯತೆ-ಗೌರವಿಸುವ, ಉನ್ನತ-ಉಪಯುಕ್ತತೆಯ ಸ್ಥಳೀಯ Android ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ನಿರ್ಮಿಸಲು ಸಮರ್ಪಿಸಲಾಗಿದೆ.</string>
+    <string name="about_founder_contact">ಸಂಪರ್ಕ: support@skipmate.local • ಬೆಂಗಳೂರು, ಭಾರತ</string>
+    <string name="about_accessibility_disclosure_title">Google Play ಪ್ರವೇಶಿಸುವಿಕೆ ನೀತಿ ಪ್ರಕಟಣೆ</string>
+    <string name="about_accessibility_disclosure_body">ಪ್ರಮುಖ ಬಹಿರಂಗಪಡಿಸುವಿಕೆ ಮತ್ತು ಸ್ಪಷ್ಟ ಒಪ್ಪಿಗೆ:\n\nSkipMate ಅಧಿಕೃತ \'ಜಾಹೀರಾತುಗಳನ್ನು ಬಿಟ್ಟುಬಿಡಿ\' ಬಟನ್ ಯಾವಾಗ ಗೋಚರಿಸುತ್ತದೆ ಎಂಬುದನ್ನು ಪತ್ತೆಹಚ್ಚಲು ಮತ್ತು ನಿಮ್ಮ ಪರವಾಗಿ ಕ್ಲಿಕ್ ಮಾಡಲು Android AccessibilityService API ಅನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಬಳಸುತ್ತದೆ.\n\n• ಶೂನ್ಯ ವೈಯಕ್ತಿಕ ಡೇಟಾ ಸಂಗ್ರಹಣೆ: ಯಾವುದೇ ಡೇಟಾ ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ.\n• 100% ಆಫ್‌ಲೈನ್ ಕಾರ್ಯಾಚರಣೆ: ಇಂಟರ್ನೆಟ್ ಅನುಮತಿ ಅಗತ್ಯವಿಲ್ಲ.</string>
+    <string name="about_accessibility_footer">Google Play ನೀತಿಗಳೊಂದಿಗೆ ಹೊಂದಿಕೊಳ್ಳುತ್ತದೆ.</string>
+    <string name="about_copyright_title">ಹಕ್ಕುಸ್ವಾಮ್ಯ ಮತ್ತು ಟ್ರೇಡ್‌ಮಾರ್ಕ್ ಮಾಹಿತಿ</string>
+    <string name="about_copyright_body">© 2026 SkipMate ಅಭಿಷೇಕ್ ಕೆ ಆರ್ ಅವರಿಂದ. ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.\n\nYouTube Google LLC ನ ನೋಂದಾಯಿತ ಟ್ರೇಡ್‌ಮಾರ್ಕ್ ಆಗಿದೆ.</string>
+    <string name="about_cookies_title">ಕುಕೀಸ್ ಮತ್ತು ಸ್ಥಳೀಯ ಸಂಗ್ರಹಣೆ ನೀತಿ</string>
+    <string name="about_cookies_body">• ಶೂನ್ಯ ವೆಬ್ ಕುಕೀಗಳು: SkipMate ಸ್ಥಳೀಯ ಆಂಡ್ರಾಯ್ಡ್ ಅಪ್ಲಿಕೇಶನ್ ಆಗಿದೆ. ಇದು ಕುಕೀಗಳನ್ನು ಬಳಸುವುದಿಲ್ಲ.\n\n• ಸುರಕ್ಷಿತ ಸ್ಥಳೀಯ ಆದ್ಯತೆಗಳು: ಡೇಟಾವನ್ನು Jetpack DataStore ನಲ್ಲಿ ಸ್ಥಳೀಯವಾಗಿ ಉಳಿಸಲಾಗುತ್ತದೆ.</string>
+
+    <!-- Subscription & Pro -->
+    <string name="subscription_title">SkipMate Pro</string>
+    <string name="subscription_tagline">ವೀಡಿಯೊಗಳನ್ನು ವೀಕ್ಷಿಸಿ. ಜಾಹೀರಾತಿನ ಕಿರಿಕಿರಿಯಿಂದ ಮುಕ್ತಿ ಪಡೆಯಿರಿ.</string>
+    <string name="pro_badge">PRO</string>
+    <string name="trial_badge">7 ದಿನಗಳ ಉಚಿತ ಪ್ರಯೋಗ</string>
+    <string name="trial_title">ನಿಮ್ಮ 7 ದಿನಗಳ ಉಚಿತ ಪ್ರಯೋಗವನ್ನು ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="trial_desc">ಇಂದು ₹0 ಶುಲ್ಕದೊಂದಿಗೆ 7 ದಿನಗಳವರೆಗೆ ಎಲ್ಲಾ ಪ್ರೀಮಿಯಂ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಆನಂದಿಸಿ. ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ರದ್ದುಗೊಳಿಸಿ.</string>
+    <string name="plan_monthly">ಮಾಸಿಕ ಯೋಜನೆ</string>
+    <string name="plan_monthly_desc">ಹೊಂದಿಕೊಳ್ಳುವ ಮಾಸಿಕ ಬಿಲ್ಲಿಂಗ್. ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ರದ್ದುಗೊಳಿಸಿ.</string>
+    <string name="plan_yearly">ವಾರ್ಷಿಕ ಯೋಜನೆ</string>
+    <string name="plan_yearly_desc">ಅತ್ಯುತ್ತಮ ಮೌಲ್ಯ! 25% ರಿಯಾಯಿತಿ ಅನ್ವಯಿಸಲಾಗಿದೆ.</string>
+    <string name="plan_yearly_save">25% ಉಳಿಸಿ</string>
+    <string name="limited_offer_title">⚡ ಸ್ವಾಗತ ಆಫರ್: ವಾರ್ಷಿಕ ಯೋಜನೆಯಲ್ಲಿ 25% ರಿಯಾಯಿತಿ</string>
+    <string name="limited_offer_desc">ಹೊಸ ಬಳಕೆದಾರರಿಗೆ ಸೀಮಿತ 1 ಗಂಟೆಯ ಕೊಡುಗೆ! ಮುಕ್ತಾಯಗೊಳ್ಳಲು ಉಳಿದ ಸಮಯ:</string>
+    <string name="need_help">ಸಹಾಯ ಬೇಕೇ?</string>
+    <string name="currency_selector">ಬಿಲ್ಲಿಂಗ್ ಕರೆನ್ಸಿ:</string>
+    <string name="btn_start_trial">7 ದಿನಗಳ ಉಚಿತ ಪ್ರಯೋಗ ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="btn_subscribe_now">SkipMate Pro ಚಂದಾದಾರರಾಗಿ</string>
+    <string name="payment_gateway_title">ಪಾವತಿ ವಿಧಾನವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="payment_upi">UPI (GPay, PhonePe, Paytm, BHIM)</string>
+    <string name="payment_cards">ಕ್ರೆಡಿಟ್ / ಡೆಬಿಟ್ ಕಾರ್ಡ್‌ಗಳು (Visa, Mastercard, RuPay)</string>
+    <string name="payment_netbanking">ನೆಟ್ ಬ್ಯಾಂಕಿಂಗ್ (50+ ಭಾರತೀಯ ಮತ್ತು ಜಾಗತಿಕ ಬ್ಯಾಂಕುಗಳು)</string>
+    <string name="payment_wallets">ವಾಲೆಟ್‌ಗಳು ಮತ್ತು Google Play ಬಿಲ್ಲಿಂಗ್</string>
+    <string name="pay_now">ಪಾವತಿಸಲು ಮುಂದುವರಿಯಿರಿ</string>
+    <string name="payment_secure">🔒 128-ಬಿಟ್ ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಲಾದ ಮತ್ತು 100% ಸುರಕ್ಷಿತ ಚೆಕ್‌ಔಟ್</string>
+    <string name="pro_features_title">SkipMate Pro ನಲ್ಲಿ ಏನನ್ನು ಸೇರಿಸಲಾಗಿದೆ</string>
+    <string name="sub_feature_1">ತತ್‌ಕ್ಷಣದ ಶೂನ್ಯ-ವಿಳಂಬ ಆಟೋ-ಸ್ಕಿಪ್ ಎಂಜಿನ್</string>
+    <string name="sub_feature_2">ಬಹು-ಭಾಷಾ YouTube ಪ್ಲೇಯರ್ ಗುರುತಿಸುವಿಕೆ</string>
+    <string name="sub_feature_3">ಬ್ಯಾಟರಿ-ಅನುಕೂಲಕರ ಸ್ಮಾರ್ಟ್ ಹಿನ್ನೆಲೆ ಪತ್ತೆ</string>
+    <string name="sub_feature_4">ಶೂನ್ಯ ನೆಟ್‌ವರ್ಕ್ ಟೆಲಿಮೆಟ್ರಿ ಮತ್ತು 100% ಆಫ್‌ಲೈನ್ ಗೌಪ್ಯತೆ</string>
+    <string name="sub_feature_5">ತಂಡದಿಂದ ವಿಶೇಷ ಬೆಂಬಲ</string>
+</resources>

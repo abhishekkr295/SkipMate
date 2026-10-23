@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Dark Minimalist Squircle Base -->
+    <path
+        android:fillColor="#0D0F19"
+        android:pathData="M26,6 L70,6 C82,6 90,14 90,26 L90,70 C90,82 82,90 70,90 L26,90 C14,90 6,82 6,70 L6,26 C6,14 14,6 26,6 Z" />
+
+    <!-- Subtle Inner Border -->
+    <path
+        android:strokeColor="#252945"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M26,7.5 L70,7.5 C81,7.5 88.5,15 88.5,26 L88.5,70 C88.5,81 81,88.5 70,88.5 L26,88.5 C15,88.5 7.5,81 7.5,70 L7.5,26 C7.5,15 15,7.5 26,7.5 Z" />
+
+    <!-- First Minimal Play Arrow (Electric Indigo) -->
+    <path
+        android:fillColor="#635BFF"
+        android:pathData="M27.5,31 C27.5,29.2 29.5,28.1 31,29.1 L47.5,45.8 C48.8,47 48.8,49 47.5,50.2 L31,66.9 C29.5,67.9 27.5,66.8 27.5,65 Z" />
+
+    <!-- Second Minimal Play Arrow (Electric Violet) -->
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M46.5,31 C46.5,29.2 48.5,28.1 50,29.1 L66.5,45.8 C67.8,47 67.8,49 66.5,50.2 L50,66.9 C48.5,67.9 46.5,66.8 46.5,65 Z" />
+
+    <!-- Sleek Rounded Vertical Skip Bar (Neon Cyan) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M69,32 C69,30 70.5,28.5 72.5,28.5 C74.5,28.5 76,30 76,32 L76,64 C76,66 74.5,67.5 72.5,67.5 C70.5,67.5 69,66 69,64 Z" />
+</vector>

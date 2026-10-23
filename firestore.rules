@@ -1,0 +1,35 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // User profile documents: /users/{userId}
+    match /users/{userId} {
+      
+      // Users can only read their own profile
+      allow read: if request.auth != null && request.auth.uid == userId;
+      
+      // New profile creation during registration
+      // Enforces default free status upon self-registration
+      allow create: if request.auth != null 
+                    && request.auth.uid == userId
+                    && request.resource.data.uid == userId
+                    && request.resource.data.subscriptionStatus == 'free'
+                    && request.resource.data.subscriptionPlan == 'free';
+      
+      // Users can update only permitted profile fields (name, autoPayEnabled, updatedAt)
+      // Users are STRICTLY FORBIDDEN from modifying privileged subscription fields
+      allow update: if request.auth != null 
+                    && request.auth.uid == userId
+                    && !request.resource.data.diff(resource.data).affectedKeys()
+                        .hasAny(['subscriptionStatus', 'subscriptionPlan', 'uid', 'email', 'createdAt']);
+      
+      // Deletions are disallowed from client SDK
+      allow delete: false;
+    }
+
+    // Default deny for all other collections
+    match /{document=**} {
+      allow read, write: false;
+    }
+  }
+}

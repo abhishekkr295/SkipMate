@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SkipMate</string>
+    <string name="app_tagline">Watch videos. Skip the hassle.</string>
+    <string name="app_subtitle">Your hands-free video companion</string>
+
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_label">SkipMate Ad Skip Assistant</string>
+    <string name="accessibility_service_description">SkipMate uses Android Accessibility capabilities exclusively to detect when the official YouTube "Skip Ads" button becomes visible and automatically clicks it for hands-free viewing convenience. SkipMate runs locally on your device, does not store or transmit personal data or video content, and does not bypass unskippable ads.</string>
+
+    <!-- Dashboard Status Strings -->
+    <string name="status_auto_skip_on">Automatic Skip: ON</string>
+    <string name="status_auto_skip_off">Automatic Skip: OFF</string>
+    <string name="status_permission_required">Accessibility Permission Required</string>
+    <string name="status_youtube_not_detected">YouTube Not Detected</string>
+    <string name="status_monitoring_available">Monitoring Available</string>
+    <string name="status_skip_button_not_detected">Skip Button Not Detected</string>
+    <string name="status_skip_attempted">Skip Attempted</string>
+    <string name="status_interaction_unconfirmed">Interaction Could Not Be Confirmed</string>
+
+    <!-- Home Cards -->
+    <string name="card_automatic_skip_title">Automatic Skip</string>
+    <string name="card_automatic_skip_desc">Attempt to activate a supported YouTube Skip Ads button when it becomes available.</string>
+    <string name="desc_auto_skip_disabled">Automatic skipping is turned off.</string>
+    <string name="desc_permission_missing">Enable Accessibility Service to continue.</string>
+    <string name="desc_service_active">Ads Skip Service Enabled</string>
+    <string name="home_pro_banner_title">👑 Upgrade to SkipMate Pro</string>
+    <string name="home_pro_banner_desc">Start 7-Day Free Trial! Monthly starting at ₹9 or save 25% on yearly.</string>
+    <string name="home_stat_total_skips">Total Skips</string>
+    <string name="home_stat_last_skip">Last Activity</string>
+    <string name="home_stat_status">Service Status</string>
+
+    <!-- Quick Actions -->
+    <string name="action_configure_permissions">Configure Permissions</string>
+    <string name="action_open_youtube">Open YouTube</string>
+    <string name="action_diagnostics">Diagnostics</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_headline">Your videos. Fewer interruptions.</string>
+    <string name="onboarding_description">SkipMate helps you automatically activate recognizable YouTube skip controls when they are available.</string>
+    <string name="onboarding_button_get_started">Get Started</string>
+    <string name="onboarding_secondary_text">You stay in control. Enable or disable the feature whenever you want.</string>
+
+    <!-- Permission Guide -->
+    <string name="permission_guide_title">Accessibility Setup</string>
+    <string name="permission_step_1">1. Open Accessibility Settings</string>
+    <string name="permission_step_1_desc">Tap the button below to go directly to Android Accessibility settings.</string>
+    <string name="permission_step_2">2. Find SkipMate</string>
+    <string name="permission_step_2_desc">Under "Downloaded apps" or "Installed services", locate SkipMate.</string>
+    <string name="permission_step_3">3. Enable the Service</string>
+    <string name="permission_step_3_desc">Toggle the switch to ON and confirm Android\'s standard accessibility prompt.</string>
+    <string name="permission_step_4">4. Return to SkipMate</string>
+    <string name="permission_step_4_desc">Switch back here. Your status will update to Ready automatically.</string>
+    <string name="permission_open_settings_button">Open Accessibility Settings</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_general">General</string>
+    <string name="settings_target_app">Target Application</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">System Default</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_logging_title">Diagnostic Logging</string>
+    <string name="settings_logging_desc">Record minimal local events to help diagnose skip detection issues.</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_about">About SkipMate &amp; Policies</string>
+    <string name="settings_about_desc">Mission, Founder Abhishek K R, Copyright, Cookies, Privacy</string>
+    <string name="settings_disable_instructions_title">How to Disable</string>
+    <string name="settings_disable_instructions_desc">You can turn off Automatic Skip using the main switch at any time, or completely revoke the Accessibility Service in Android Settings.</string>
+    <string name="app_language_title">App Language</string>
+    <string name="rate_us_title">Rate Us on Google Play</string>
+    <string name="rate_us_desc">Love hands-free viewing? Support us with 5 stars!</string>
+    <string name="logout_title">Session &amp; Account</string>
+    <string name="logout_desc">SkipMate functions 100% locally on your phone without requiring passwords or cloud accounts. You can reset your session or sign out of active settings below.</string>
+    <string name="logout_btn">Reset Session &amp; Sign Out</string>
+    <string name="logout_dialog_title">Reset Session &amp; Sign Out?</string>
+    <string name="logout_dialog_body">This will restore all app preferences to factory defaults, clear session diagnostics, and return you to the initial setup screen.</string>
+    <string name="logout_confirm">Reset &amp; Sign Out</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Diagnostics -->
+    <string name="diagnostics_title">Diagnostics</string>
+    <string name="diagnostics_clear_logs">Clear Local Logs</string>
+    <string name="diagnostics_no_events">No diagnostic events recorded yet. Open YouTube and play a video with ads to monitor detection.</string>
+    <string name="diagnostics_event_count">Events Logged: %1$d</string>
+
+    <!-- About & Privacy -->
+    <string name="about_title">About &amp; Policies</string>
+    <string name="about_app_name">SkipMate v1.0.0</string>
+    <string name="about_app_heading">About the App</string>
+    <string name="about_app_body">Designed to make your YouTube experience more convenient, this app aims to reduce the hassle of manually skipping ads when you\'re busy, eating, or away from your phone. Our goal is to create a smarter, more convenient viewing experience with minimal user interaction.</string>
+    <string name="about_mission_heading">Our Mission</string>
+    <string name="about_mission_body">To make digital content consumption more seamless, convenient, and user-friendly through practical technology solutions.</string>
+    <string name="about_founder_heading">Founder &amp; Developer</string>
+    <string name="about_founder_name">Abhishek K R</string>
+    <string name="about_founder_role">Lead Developer &amp; Software Architect\nDedicated to building privacy-respecting, high-utility native Android applications.</string>
+    <string name="about_founder_contact">Contact: support@skipmate.local • Bangalore, India</string>
+    <string name="about_accessibility_disclosure_title">Google Play Accessibility Policy Disclosure</string>
+    <string name="about_accessibility_disclosure_body">Prominent Disclosure &amp; Explicit Consent:\n\nSkipMate uses the Android AccessibilityService API exclusively to detect when the official \'Skip Ads\' button becomes clickable on YouTube\'s player and automatically triggers a standard click action on your behalf.\n\n• Zero Personal Data Collection: SkipMate does NOT access, read, or record personal data, passwords, keystrokes, financial details, or video streams.\n• Complete Local Offline Operation: SkipMate requires NO internet permission (android.permission.INTERNET is completely absent from the manifest) and cannot transmit data to any server.\n• YouTube Terms Compliance: SkipMate does NOT block ads, strip ad content, or bypass unskippable bumper ads.</string>
+    <string name="about_accessibility_footer">Compliant with Google Play Accessibility and User Data Policies.</string>
+    <string name="about_copyright_title">Copyright &amp; Trademark Information</string>
+    <string name="about_copyright_body">© 2026 SkipMate by Abhishek K R. All rights reserved.\n\nYouTube is a registered trademark of Google LLC. SkipMate is an independent third-party companion application designed by Abhishek K R. SkipMate is NOT endorsed by, directly affiliated with, maintained, authorized, or sponsored by Google LLC or YouTube.</string>
+    <string name="about_cookies_title">Cookies &amp; Local Storage Policy</string>
+    <string name="about_cookies_body">• Zero Web Cookies: SkipMate is a native Android application. It does NOT use HTTP cookies, tracking pixels, or third-party web identifiers.\n\n• Secure Local Preferences: Minimal configuration data (Theme mode, Auto-Skip state, Language, and Diagnostic options) is stored strictly on your local device using Android Jetpack DataStore. No identifiers are shared with third parties.</string>
+
+    <!-- Subscription & Pro -->
+    <string name="subscription_title">SkipMate Pro</string>
+    <string name="subscription_tagline">Watch videos. Skip the hassle.</string>
+    <string name="pro_badge">PRO</string>
+    <string name="trial_badge">7-DAY FREE TRIAL</string>
+    <string name="trial_title">Start Your 7-Day Free Trial</string>
+    <string name="trial_desc">Enjoy all premium features for 7 days with ₹0 charge today. Cancel anytime before trial ends.</string>
+    <string name="plan_monthly">Monthly Plan</string>
+    <string name="plan_monthly_desc">Flexible monthly billing. Cancel anytime.</string>
+    <string name="plan_yearly">Yearly Plan</string>
+    <string name="plan_yearly_desc">Best value! 25% discount applied.</string>
+    <string name="plan_yearly_save">SAVE 25%</string>
+    <string name="limited_offer_title">⚡ Welcome Offer: 25% OFF Yearly Plan</string>
+    <string name="limited_offer_desc">Limited-time 1-hour offer for new users! Ends in:</string>
+    <string name="need_help">Need Help?</string>
+    <string name="currency_selector">Billing Currency:</string>
+    <string name="btn_start_trial">Start 7-Day Free Trial</string>
+    <string name="btn_subscribe_now">Subscribe to SkipMate Pro</string>
+    <string name="payment_gateway_title">Select Payment Method</string>
+    <string name="payment_upi">UPI (GPay, PhonePe, Paytm, BHIM)</string>
+    <string name="payment_cards">Credit / Debit Cards (Visa, Mastercard, RuPay)</string>
+    <string name="payment_netbanking">Net Banking (50+ Indian &amp; Global Banks)</string>
+    <string name="payment_wallets">Wallets &amp; Google Play Billing</string>
+    <string name="pay_now">Proceed to Pay</string>
+    <string name="payment_secure">🔒 128-bit Encrypted &amp; 100% Secure Checkout</string>
+    <string name="pro_features_title">What\'s Included in SkipMate Pro</string>
+    <string name="sub_feature_1">Instant zero-lag auto-skip engine</string>
+    <string name="sub_feature_2">Multi-language YouTube player recognition</string>
+    <string name="sub_feature_3">Battery-optimized smart background detection</string>
+    <string name="sub_feature_4">Zero network telemetry &amp; 100% offline privacy</string>
+    <string name="sub_feature_5">Exclusive support from team</string>
+</resources>

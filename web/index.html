@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>SkipMate — Your YouTube Experience, Made Simpler | Official Android App</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Meet SkipMate, a smarter native Android accessibility companion for YouTube hands-free viewing. Spend less time reaching for your phone with automatic, privacy-first ad skipping.">
+  <meta name="keywords" content="SkipMate, YouTube ad skip, Android accessibility, hands-free YouTube, automatic skip ads, SkipMate APK">
+  <meta name="author" content="Abhishek K R">
+  <meta name="theme-color" content="#0B0D17">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SkipMate — Your YouTube Experience, Made Simpler">
+  <meta property="og:description" content="Hands-free YouTube viewing assistant for Android. Zero network tampering, privacy-first on-device accessibility.">
+  <meta property="og:url" content="https://skipmate.app">
+  <meta property="og:image" content="assets/og-preview.png">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SkipMate — Your YouTube Experience, Made Simpler">
+  <meta name="twitter:description" content="A smarter way to enjoy YouTube hands-free on Android. Download the official APK.">
+
+  <!-- Favicon (Inline SVG) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg viewBox='0 0 96 96' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='96' height='96' rx='26' fill='%230D0F19'/%3E%3Cpath d='M27.5 31 C27.5 29.2 29.5 28.1 31 29.1 L47.5 45.8 C48.8 47 48.8 49 47.5 50.2 L31 66.9 C29.5 67.9 27.5 66.8 27.5 65 Z' fill='%23635BFF'/%3E%3Cpath d='M46.5 31 C46.5 29.2 48.5 28.1 50 29.1 L66.5 45.8 C67.8 47 67.8 49 66.5 50.2 L50 66.9 C48.5 67.9 46.5 66.8 46.5 65 Z' fill='%23818CF8'/%3E%3Crect x='69' y='32' width='6' height='32' rx='3' fill='%2338BDF8'/%3E%3C/svg%3E">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Announcement Bar (Android-first badge) -->
+  <div class="announcement-bar" id="announcementBar">
+    <div class="container announcement-content">
+      <span class="badge-android">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-1.0001s.4482-1.0001.9993-1.0001c.5516 0 .9998.4486.9998 1.0001s-.4482 1.0001-.9998 1.0001m-11.046 0c-.5511 0-.9993-.4486-.9993-1.0001s.4482-1.0001.9993-1.0001c.5516 0 .9998.4486.9998 1.0001s-.4482 1.0001-.9998 1.0001m11.4045-6.02l1.9973-3.4592a.416.416 0 00-.1521-.5676.416.416 0 00-.5676.1521l-2.0223 3.503C15.5902 8.4116 13.8533 8 12 8s-3.5902.4116-5.1368 1.1507L4.8409 5.6477a.416.416 0 00-.5676-.1521.416.416 0 00-.1521.5676l1.9973 3.4592C2.6889 11.1867.3432 14.6589 0 18.761h24c-.3432-4.1021-2.6889-7.5743-6.1185-9.4396"/>
+        </svg>
+        Made for Android
+      </span>
+      <span class="announcement-text">SkipMate v1.1.0 is now available • Native Android Accessibility &amp; Account Sync</span>
+      <a href="#installation-guide" class="announcement-link">Installation Guide &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-container">
+      
+      <!-- Logo & Brand -->
+      <a href="#" class="brand" aria-label="SkipMate Home">
+        <div class="logo-box">
+          <svg viewBox="0 0 96 96" width="34" height="34" class="logo-svg" aria-hidden="true">
+            <rect width="96" height="96" rx="26" fill="#0D0F19"/>
+            <rect x="1" y="1" width="94" height="94" rx="25" fill="none" stroke="#252945" stroke-width="1.5"/>
+            <path d="M27.5 31 C27.5 29.2 29.5 28.1 31 29.1 L47.5 45.8 C48.8 47 48.8 49 47.5 50.2 L31 66.9 C29.5 67.9 27.5 66.8 27.5 65 Z" fill="#635BFF"/>
+            <path d="M46.5 31 C46.5 29.2 48.5 28.1 50 29.1 L66.5 45.8 C67.8 47 67.8 49 66.5 50.2 L50 66.9 C48.5 67.9 46.5 66.8 46.5 65 Z" fill="#818CF8"/>
+            <rect x="69" y="32" width="6" height="32" rx="3" fill="#38BDF8"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">SkipMate</span>
+          <span class="brand-badge">Android</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-links" id="navLinks" aria-label="Main Navigation">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#app-preview" class="nav-link">App Preview</a>
+        <a href="#installation-guide" class="nav-link">Installation</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#about" class="nav-link">About</a>
+      </nav>
+
+      <!-- Right Action CTA -->
+      <div class="nav-actions">
+        <a href="downloads/SkipMate-v1.1.0.apk" download="SkipMate-v1.1.0.apk" class="btn btn-primary btn-sm btn-download-track" id="navDownloadBtn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Download for Android</span>
+        </a>
+
+        <!-- Hamburger Menu Button (Mobile) -->
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="mobile-drawer-content">
+      <div class="mobile-drawer-header">
+        <div class="brand">
+          <div class="logo-box">
+            <svg viewBox="0 0 96 96" width="30" height="30" class="logo-svg" aria-hidden="true">
+              <rect width="96" height="96" rx="26" fill="#0D0F19"/>
+              <rect x="1" y="1" width="94" height="94" rx="25" fill="none" stroke="#252945" stroke-width="1.5"/>
+              <path d="M27.5 31 C27.5 29.2 29.5 28.1 31 29.1 L47.5 45.8 C48.8 47 48.8 49 47.5 50.2 L31 66.9 C29.5 67.9 27.5 66.8 27.5 65 Z" fill="#635BFF"/>
+              <path d="M46.5 31 C46.5 29.2 48.5 28.1 50 29.1 L66.5 45.8 C67.8 47 67.8 49 66.5 50.2 L50 66.9 C48.5 67.9 46.5 66.8 46.5 65 Z" fill="#818CF8"/>
+              <rect x="69" y="32" width="6" height="32" rx="3" fill="#38BDF8"/>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-name">SkipMate</span>
+            <span class="brand-badge">Android</span>
+          </div>
+        </div>
+        <button class="mobile-drawer-close" id="mobileDrawerCloseBtn" aria-label="Close navigation menu">&times;</button>
+      </div>
+      <nav class="mobile-nav-links">
+        <a href="#features" class="mobile-nav-link">Features</a>
+        <a href="#how-it-works" class="mobile-nav-link">How It Works</a>
+        <a href="#app-preview" class="mobile-nav-link">App Preview</a>
+        <a href="#installation-guide" class="mobile-nav-link">Installation Guide</a>
+        <a href="#faq" class="mobile-nav-link">Frequently Asked Questions</a>
+        <a href="#about" class="mobile-nav-link">About the Founder</a>
+      </nav>
+      <div class="mobile-drawer-cta">
+        <a href="downloads/SkipMate-v1.1.0.apk" download="SkipMate-v1.1.0.apk" class="btn btn-primary btn-block btn-download-track">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Download SkipMate v1.1.0</span>
+        </a>
+        <p class="mobile-file-info">SkipMate-v1.1.0.apk • Latest Build • Android 10+</p>
+      </div>
+    </div>
+  </div>
+
+  <main id="mainContent">
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        
+        <!-- Left: Copy & Call-To-Action -->
+        <div class="hero-copy">
+          
+          <div class="hero-pill-badge">
+            <span class="pulse-indicator"></span>
+            <span class="pill-text">Native Android Accessibility Companion</span>
+          </div>
+
+          <h1 class="hero-title">
+            Your YouTube Experience, <br>
+            <span class="gradient-text">Made Simpler.</span>
+          </h1>
+
+          <p class="hero-description">
+            Meet SkipMate, a smarter way to enjoy YouTube with less manual interaction. Spend less time reaching for your phone and more time enjoying the content you love.
+          </p>
+
+          <!-- Primary Download Action Box -->
+          <div class="hero-actions">
+            <a href="downloads/SkipMate-v1.1.0.apk" download="SkipMate-v1.1.0.apk" class="btn btn-primary btn-lg btn-download-track" id="heroPrimaryDownloadBtn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download SkipMate v1.1.0</span>
+            </a>
+
+            <a href="#features" class="btn btn-secondary btn-lg">
+              <span>Explore Features</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Compatibility & Trust Note -->
+          <div class="hero-meta">
+            <div class="meta-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#38BDF8">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+              </svg>
+              <span>Made for Android (API 29+)</span>
+            </div>
+            <div class="meta-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#38BDF8">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+              </svg>
+              <span>Zero Network Interception</span>
+            </div>
+            <div class="meta-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#38BDF8">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+              </svg>
+              <span>v1.1.0 APK (21.5 MB)</span>
+            </div>
+          </div>
+
+          <!-- Desktop QR Code Assistant (Visible on Large Screens) -->
+          <div class="desktop-qr-card" id="desktopQrCard">
+            <div class="qr-code-box" id="qrContainer" aria-label="QR Code to download APK on mobile">
+              <!-- Dynamically populated or SVG vector QR -->
+              <canvas id="qrCanvas" width="88" height="88" aria-hidden="true"></canvas>
+            </div>
+            <div class="qr-details">
+              <span class="qr-title">Scan to Download on Phone</span>
+              <span class="qr-sub">Point your Android camera at the QR code to download the APK directly to your phone.</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: Android Smartphone Mockup showing SkipMate UI -->
+        <div class="hero-visual">
+          <div class="phone-mockup-wrapper">
+            <div class="glow-orb"></div>
+            
+            <div class="smartphone-frame">
+              <!-- Speaker & Camera -->
+              <div class="phone-speaker"></div>
+              <div class="phone-camera"></div>
+
+              <!-- Screen Inside Mockup -->
+              <div class="phone-screen">
+                
+                <!-- Status Bar -->
+                <div class="screen-status-bar">
+                  <span class="status-time">9:41</span>
+                  <div class="status-icons">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L12 22l7.03-4.39C20.26 16.07 21 14.12 21 12c0-4.97-4.03-9-9-9z"/></svg>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4C7.31 4 3.07 5.9 0 8.98L12 21 24 8.98A16.88 16.88 0 0012 4z"/></svg>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33v15.33C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V5.33C17 4.6 16.4 4 15.67 4z"/></svg>
+                  </div>
+                </div>
+
+                <!-- App Header -->
+                <div class="screen-app-header">
+                  <div class="app-header-left">
+                    <div class="screen-logo">
+                      <svg viewBox="0 0 96 96" width="22" height="22">
+                        <path d="M27.5 31 C27.5 29.2 29.5 28.1 31 29.1 L47.5 45.8 C48.8 47 48.8 49 47.5 50.2 L31 66.9 C29.5 67.9 27.5 66.8 27.5 65 Z" fill="#635BFF"/>
+                        <path d="M46.5 31 C46.5 29.2 48.5 28.1 50 29.1 L66.5 45.8 C67.8 47 67.8 49 66.5 50.2 L50 66.9 C48.5 67.9 46.5 66.8 46.5 65 Z" fill="#818CF8"/>
+                        <rect x="69" y="32" width="6" height="32" rx="3" fill="#38BDF8"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <div class="screen-app-title">
+                        SkipMate <span class="badge-pro">★ PRO</span>
+                      </div>
+                      <div class="screen-app-sub">Hands-Free Video Companion</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Master Toggle Card -->
+                <div class="screen-card master-card">
+                  <div class="card-split">
+                    <div>
+                      <div class="card-title">Automatic Skip</div>
+                      <div class="card-caption">Detects official YouTube Skip Ads button</div>
+                    </div>
+                    <div class="switch-ui active">
+                      <div class="switch-knob">✓</div>
+                    </div>
+                  </div>
+                  <div class="active-status-pill">
+                    <span class="active-dot"></span>
+                    <span>Ads Skip Service Enabled</span>
+                  </div>
+                </div>
+
+                <!-- Status Row Cards -->
+                <div class="screen-card info-card">
+                  <div class="card-row">
+                    <div class="icon-circle icon-green">▶</div>
+                    <div class="card-content">
+                      <div class="row-title">YouTube Status</div>
+                      <div class="row-status text-green">Official App Installed &amp; Ready</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="screen-card info-card">
+                  <div class="card-row">
+                    <div class="icon-circle icon-blue">🛡️</div>
+                    <div class="card-content">
+                      <div class="row-title">Skip Assistant</div>
+                      <div class="row-status text-blue">Accessibility Permission Active</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Quick Actions 3-Tile Row (Matching Android Compose App) -->
+                <div class="screen-quick-actions">
+                  <div class="action-tile">
+                    <div class="tile-icon">🛡️</div>
+                    <div class="tile-label">Permissions</div>
+                  </div>
+                  <div class="action-tile">
+                    <div class="tile-icon">🚀</div>
+                    <div class="tile-label">YouTube</div>
+                  </div>
+                  <div class="action-tile">
+                    <div class="tile-icon">⚙️</div>
+                    <div class="tile-label">Settings</div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Floating Badge Details -->
+            <div class="floating-badge badge-top-right">
+              <span class="badge-emoji">⚡</span>
+              <div>
+                <strong>Zero Lag</strong>
+                <small>Instant on-device click</small>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-left">
+              <span class="badge-emoji">🔒</span>
+              <div>
+                <strong>100% Private</strong>
+                <small>No internet permissions required for core skipping</small>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section class="section features-section" id="features">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-badge">Core Advantages</span>
+          <h2 class="section-title">Less Interruption. More Convenience.</h2>
+          <p class="section-subtitle">
+            SkipMate focuses on practical, real-world utility — built to work reliably without complicated menus or intrusive permissions.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          
+          <!-- Feature 1: Reduced Manual Interaction -->
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#635BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 11V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0"></path>
+                <path d="M14 10V4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v2"></path>
+                <path d="M10 10.5V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v8"></path>
+                <path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Reduced Manual Interaction</h3>
+            <p class="feature-desc">
+              Designed to reduce the need to manually reach for your phone during supported viewing scenarios when the official YouTube Skip button appears.
+            </p>
+            <div class="feature-benefit">Ideal for cooking, exercising, or working</div>
+          </div>
+
+          <!-- Feature 2: Simple User Experience -->
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="9" y1="3" x2="9" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="feature-title">Simple User Experience</h3>
+            <p class="feature-desc">
+              A clean interface designed to make the application easy to understand and use. One master switch turns the entire service on or off.
+            </p>
+            <div class="feature-benefit">Zero clutter, instant setup</div>
+          </div>
+
+          <!-- Feature 3: Quick Access -->
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#06B6D4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="feature-title">Quick Access</h3>
+            <p class="feature-desc">
+              Reach the app's core functionality, accessibility status, and official YouTube controls directly without navigating through unnecessary screens.
+            </p>
+            <div class="feature-benefit">Direct settings and status shortcuts</div>
+          </div>
+
+          <!-- Feature 4: Designed for Android -->
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="feature-title">Designed for Android</h3>
+            <p class="feature-desc">
+              Built natively with modern Kotlin and Jetpack Compose. Utilizes standard Android Accessibility APIs on Android 10+ (API 29 to 34+).
+            </p>
+            <div class="feature-benefit">Optimized battery and memory usage</div>
+          </div>
+
+          <!-- Feature 5: Account and Subscription Support -->
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <h3 class="feature-title">Account &amp; Subscription Support</h3>
+            <p class="feature-desc">
+              Includes seamless Firebase Authentication with optional Pro subscription plans (Monthly and Yearly) supporting Auto-Pay recurring billing.
+            </p>
+            <div class="feature-benefit">Multi-currency billing (USD, CAD, AUD, EUR, GBP)</div>
+          </div>
+
+          <!-- Feature 6: Privacy-First Architecture -->
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#818CF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Zero Traffic Interception</h3>
+            <p class="feature-desc">
+              SkipMate does not inspect network packets, tamper with video streams, or inject ads. Detection happens 100% on-device via official accessibility controls.
+            </p>
+            <div class="feature-benefit">Safe, transparent, and compliant</div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS SECTION -->
+    <section class="section how-it-works-section" id="how-it-works">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-badge">Simple 3-Step Setup</span>
+          <h2 class="section-title">How SkipMate Works</h2>
+          <p class="section-subtitle">
+            Getting started takes less than two minutes. No root access or complicated developer modes required.
+          </p>
+        </div>
+
+        <div class="steps-grid">
+          
+          <!-- Step 1 -->
+          <div class="step-card">
+            <div class="step-badge">Step 1</div>
+            <div class="step-icon-wrap">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+            </div>
+            <h3 class="step-title">1. Download</h3>
+            <p class="step-desc">
+              Download the official <strong>SkipMate-v1.1.0.apk</strong> package directly from this landing page to your Android phone or tablet.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card">
+            <div class="step-badge">Step 2</div>
+            <div class="step-icon-wrap">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+              </svg>
+            </div>
+            <h3 class="step-title">2. Install</h3>
+            <p class="step-desc">
+              Open the downloaded APK and follow Android's package installer instructions. Grant the Accessibility permission in settings.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card">
+            <div class="step-badge">Step 3</div>
+            <div class="step-icon-wrap">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+            </div>
+            <h3 class="step-title">3. Get Started</h3>
+            <p class="step-desc">
+              Open SkipMate, verify the automatic skip toggle is enabled, and watch your YouTube videos with less manual ad interruption.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- APP PREVIEW SECTION (Interactive Showcase) -->
+    <section class="section app-preview-section" id="app-preview">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-badge">Real App Experience</span>
+          <h2 class="section-title">Built with Native Jetpack Compose</h2>
+          <p class="section-subtitle">
+            Explore the screens designed to give you total control over automatic skipping, permissions, and settings.
+          </p>
+
+          <!-- Tab Navigation -->
+          <div class="preview-tabs" role="tablist" aria-label="App preview screens">
+            <button class="tab-btn active" role="tab" aria-selected="true" data-tab="tab-dashboard">
+              Dashboard
+            </button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-tab="tab-permissions">
+              Accessibility Setup
+            </button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-tab="tab-pro">
+              Pro &amp; Account
+            </button>
+          </div>
+        </div>
+
+        <!-- Tab Content 1: Dashboard -->
+        <div class="preview-content active" id="tab-dashboard" role="tabpanel">
+          <div class="preview-showcase">
+            <div class="preview-text">
+              <div class="screen-tag">Screen 1 of 3</div>
+              <h3 class="preview-heading">Home Dashboard</h3>
+              <p class="preview-paragraph">
+                The primary control center features an instant Master Toggle for automatic skipping, live detection indicators for the official YouTube app, and streamlined quick actions.
+              </p>
+              <ul class="preview-points">
+                <li><strong>One-Tap Master Toggle:</strong> Instantly enable or pause automatic skip monitoring.</li>
+                <li><strong>App Detection:</strong> Shows verified connection with official YouTube app.</li>
+                <li><strong>Aligned Quick Actions:</strong> Direct access to Permissions, YouTube, and Settings.</li>
+              </ul>
+            </div>
+
+            <div class="preview-device">
+              <!-- Mini Mockup Frame -->
+              <div class="preview-frame">
+                <div class="preview-card-mockup">
+                  <div class="mockup-header-row">
+                    <span class="mockup-brand">SkipMate Pro</span>
+                    <span class="mockup-pill text-sky">Active</span>
+                  </div>
+                  <div class="mockup-toggle-box">
+                    <div>
+                      <strong>Automatic Skip</strong>
+                      <p>Active monitoring YouTube ads</p>
+                    </div>
+                    <div class="mini-switch active"></div>
+                  </div>
+                  <div class="mockup-tile-grid">
+                    <div class="mini-tile"><span>🛡️</span><small>Permissions</small></div>
+                    <div class="mini-tile"><span>🚀</span><small>YouTube</small></div>
+                    <div class="mini-tile"><span>⚙️</span><small>Settings</small></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab Content 2: Accessibility Setup -->
+        <div class="preview-content" id="tab-permissions" role="tabpanel">
+          <div class="preview-showcase">
+            <div class="preview-text">
+              <div class="screen-tag">Screen 2 of 3</div>
+              <h3 class="preview-heading">Guided Accessibility Setup</h3>
+              <p class="preview-paragraph">
+                SkipMate guides you through Android's native Accessibility Settings with clear, numbered steps. No technical knowledge required.
+              </p>
+              <ul class="preview-points">
+                <li><strong>Transparent Explanation:</strong> Why Android Accessibility is required to detect skip buttons.</li>
+                <li><strong>Direct Link:</strong> One tap opens your device's specific accessibility settings page.</li>
+                <li><strong>Safe Revocation:</strong> You can disable the permission at any time from system settings.</li>
+              </ul>
+            </div>
+
+            <div class="preview-device">
+              <div class="preview-frame">
+                <div class="preview-card-mockup">
+                  <div class="mockup-header-row">
+                    <span class="mockup-brand">Accessibility Setup</span>
+                    <span class="mockup-pill text-green">Step-by-Step</span>
+                  </div>
+                  <div class="mockup-step-item">
+                    <span class="step-num">1</span>
+                    <div>
+                      <strong>Open Settings</strong>
+                      <small>Tap button to open system accessibility</small>
+                    </div>
+                  </div>
+                  <div class="mockup-step-item">
+                    <span class="step-num">2</span>
+                    <div>
+                      <strong>Find SkipMate</strong>
+                      <small>Located under Installed apps</small>
+                    </div>
+                  </div>
+                  <div class="mockup-step-item">
+                    <span class="step-num">3</span>
+                    <div>
+                      <strong>Enable Service</strong>
+                      <small>Toggle switch and confirm</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab Content 3: Pro & Account Sync -->
+        <div class="preview-content" id="tab-pro" role="tabpanel">
+          <div class="preview-showcase">
+            <div class="preview-text">
+              <div class="screen-tag">Screen 3 of 3</div>
+              <h3 class="preview-heading">Pro Membership &amp; Account Sync</h3>
+              <p class="preview-paragraph">
+                Unlock uninterrupted playback with flexible access options, secure Firebase authentication, and in-app automated ad management.
+              </p>
+              <ul class="preview-points">
+                <li><strong>Cloud Account Sync:</strong> Sign in securely with email to sync your profile, plan, and preferences.</li>
+                <li><strong>Pro Experience:</strong> Unlocked skip limits, auto-skip automation, and background handling.</li>
+                <li><strong>Flexible Plans:</strong> In-app monthly and yearly membership options with auto-pay support.</li>
+              </ul>
+            </div>
+
+            <div class="preview-device">
+              <div class="preview-frame">
+                <div class="preview-card-mockup">
+                  <div class="mockup-header-row">
+                    <span class="mockup-brand">SkipMate Pro</span>
+                    <span class="mockup-pill text-green">Account Synced</span>
+                  </div>
+                  <div class="mockup-plan-card selected">
+                    <div class="plan-row">
+                      <strong>Pro Membership</strong>
+                      <span class="mockup-pill text-cyan">Active Tier</span>
+                    </div>
+                    <small>Unlimited Ad Skips • Full Automation • No Limits</small>
+                  </div>
+                  <div class="mockup-autopay-row">
+                    <span>Recurring Auto-Renew</span>
+                    <div class="mini-switch active"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- INSTALLATION GUIDE SECTION -->
+    <section class="section install-guide-section" id="installation-guide">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-badge">Step-by-Step Instructions</span>
+          <h2 class="section-title">Get Started with SkipMate</h2>
+          <p class="section-subtitle">
+            Because SkipMate is an independent Android companion, you install it directly via the APK. Follow these simple steps:
+          </p>
+        </div>
+
+        <div class="guide-wrapper">
+          
+          <div class="guide-steps">
+            
+            <div class="guide-step-item">
+              <div class="guide-step-number">1</div>
+              <div class="guide-step-body">
+                <h4 class="guide-step-title">Tap "Download SkipMate"</h4>
+                <p class="guide-step-text">
+                  Click the primary download button below to download the official <strong>SkipMate-v1.1.0.apk</strong> file (21.7 MB).
+                </p>
+              </div>
+            </div>
+
+            <div class="guide-step-item">
+              <div class="guide-step-number">2</div>
+              <div class="guide-step-body">
+                <h4 class="guide-step-title">Wait for the Download to Complete</h4>
+                <p class="guide-step-text">
+                  Check your browser notification or notification tray until the download is complete.
+                </p>
+              </div>
+            </div>
+
+            <div class="guide-step-item">
+              <div class="guide-step-number">3</div>
+              <div class="guide-step-body">
+                <h4 class="guide-step-title">Open the Downloaded APK</h4>
+                <p class="guide-step-text">
+                  Tap the completed download in your browser, or open your device's <strong>Files</strong> or <strong>Downloads</strong> folder and select <code>SkipMate-v1.1.0.apk</code>.
+                </p>
+              </div>
+            </div>
+
+            <div class="guide-step-item">
+              <div class="guide-step-number">4</div>
+              <div class="guide-step-body">
+                <h4 class="guide-step-title">Allow Installation from Browser (If Prompted)</h4>
+                <p class="guide-step-text">
+                  If Android displays a prompt saying <em>"For your security, your phone is not allowed to install unknown apps from this source"</em>, tap <strong>Settings</strong>, toggle <strong>Allow from this source</strong> ON, then tap the back button.
+                </p>
+              </div>
+            </div>
+
+            <div class="guide-step-item">
+              <div class="guide-step-number">5</div>
+              <div class="guide-step-body">
+                <h4 class="guide-step-title">Review the Prompt and Tap "Install"</h4>
+                <p class="guide-step-text">
+                  Android will ask: <em>"Do you want to install this app?"</em>. Tap <strong>Install</strong> to proceed.
+                </p>
+              </div>
+            </div>
+
+            <div class="guide-step-item">
+              <div class="guide-step-number">6</div>
+              <div class="guide-step-body">
+                <h4 class="guide-step-title">Open SkipMate</h4>
+                <p class="guide-step-text">
+                  Once installation completes, tap <strong>Open</strong> to launch SkipMate and enable the accessibility switch.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Troubleshooting Warning Callout -->
+          <div class="alert-box alert-info">
+            <div class="alert-icon">ℹ️</div>
+            <div class="alert-content">
+              <strong>Troubleshooting Note</strong>
+              <p>
+                If Android blocks installation, check whether your device runs Android 10+ and whether the APK was downloaded completely. Exact prompts can vary slightly by manufacturer (Samsung OneUI, Xiaomi MIUI/HyperOS, Google Pixel, etc.). Only install APKs from sources you trust.
+              </p>
+            </div>
+          </div>
+
+          <!-- Prominent Download CTA -->
+          <div class="guide-cta-card">
+            <div class="cta-card-content">
+              <h3>Ready to Experience Hands-Free YouTube?</h3>
+              <p>Download the official package directly to your Android device.</p>
+            </div>
+            <a href="downloads/SkipMate-v1.1.0.apk" download="SkipMate-v1.1.0.apk" class="btn btn-primary btn-lg btn-download-track">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download SkipMate APK</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FAQ SECTION (Accessible Accordion) -->
+    <section class="section faq-section" id="faq">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-badge">Got Questions?</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">
+            Everything you need to know about SkipMate, how it works, and how to use it safely.
+          </p>
+        </div>
+
+        <div class="accordion" id="faqAccordion">
+          
+          <!-- Q1 -->
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false" aria-controls="faq-ans-1">
+              <span class="accordion-question">What is SkipMate?</span>
+              <span class="accordion-arrow" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body" id="faq-ans-1" hidden>
+              <p>
+                SkipMate is a native Android accessibility companion app. It assists users watching YouTube videos hands-free (such as while cooking, exercising, or working) by detecting when the standard "Skip Ads" button appears in the official YouTube app and automatically performing the tap.
+              </p>
+            </div>
+          </div>
+
+          <!-- Q2 -->
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false" aria-controls="faq-ans-2">
+              <span class="accordion-question">Is SkipMate free?</span>
+              <span class="accordion-arrow" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body" id="faq-ans-2" hidden>
+              <p>
+                Yes! SkipMate offers free core functionality including a 7-day trial of SkipMate Pro features. Optional Pro plans (Monthly and Yearly) are available for users who want extended recurring functionality, premium diagnostics, and multi-device account sync.
+              </p>
+            </div>
+          </div>
+
+          <!-- Q3 -->
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false" aria-controls="faq-ans-3">
+              <span class="accordion-question">How do I install SkipMate on Android?</span>
+              <span class="accordion-arrow" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body" id="faq-ans-3" hidden>
+              <p>
+                Simply download the APK file by clicking any "Download SkipMate" button on this page. When downloaded, open the APK file from your browser downloads, grant the "Install unknown apps" permission for your browser if prompted, and tap "Install".
+              </p>
+            </div>
+          </div>
+
+          <!-- Q4 -->
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false" aria-controls="faq-ans-4">
+              <span class="accordion-question">Why does Android ask for installation permission?</span>
+              <span class="accordion-arrow" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body" id="faq-ans-4" hidden>
+              <p>
+                On Android, any application installed directly from a web browser (rather than the Google Play Store) is classified as an "unknown source". This is Android's built-in safeguard to ensure you confirm every app installation. Granting permission for your browser allows it to install the APK file you just downloaded.
+              </p>
+            </div>
+          </div>
+
+          <!-- Q5 -->
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false" aria-controls="faq-ans-5">
+              <span class="accordion-question">Is SkipMate available for iOS (iPhone/iPad)?</span>
+              <span class="accordion-arrow" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body" id="faq-ans-5" hidden>
+              <p>
+                No. SkipMate is built specifically for Android because it relies on the Android Accessibility Service framework to detect user interface controls. Apple's iOS does not offer an equivalent API for third-party apps to interact with other running applications.
+              </p>
+            </div>
+          </div>
+
+          <!-- Q6 -->
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false" aria-controls="faq-ans-6">
+              <span class="accordion-question">How do I uninstall SkipMate?</span>
+              <span class="accordion-arrow" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body" id="faq-ans-6" hidden>
+              <p>
+                You can uninstall SkipMate at any time just like any other Android app: long-press the SkipMate app icon on your home screen or app drawer, tap "App Info" (or the "i" icon), and tap "Uninstall".
+              </p>
+            </div>
+          </div>
+
+          <!-- Q7 -->
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false" aria-controls="faq-ans-7">
+              <span class="accordion-question">How can I contact support?</span>
+              <span class="accordion-arrow" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body" id="faq-ans-7" hidden>
+              <p>
+                For questions, feedback, or technical assistance regarding SkipMate, you can reach out through the official project repository or via our support contact placeholder at <code>support@skipmate.app</code>.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT & FOUNDER SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        
+        <div class="about-card">
+          <div class="about-content">
+            <span class="section-badge">Mission &amp; Vision</span>
+            <h2 class="about-title">Built to Make Everyday Viewing Simpler</h2>
+            <p class="about-desc">
+              SkipMate is designed to make the viewing experience more convenient by reducing unnecessary manual interaction. Our focus is on creating a simple, practical Android application that puts usability first.
+            </p>
+
+            <div class="founder-profile">
+              <div class="founder-avatar">
+                <span>AK</span>
+              </div>
+              <div class="founder-info">
+                <h4 class="founder-name">Abhishek K R</h4>
+                <span class="founder-role">Founder &amp; Developer</span>
+                <p class="founder-bio">
+                  Abhishek K R is a Computer Science and Engineering student interested in software development, AI, and building practical technology products. SkipMate reflects his interest in solving everyday problems through simple, user-focused applications.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="app-footer">
+    <div class="container footer-container">
+      
+      <!-- Brand & Mission -->
+      <div class="footer-brand-col">
+        <div class="brand">
+          <div class="logo-box">
+            <svg viewBox="0 0 96 96" width="30" height="30" class="logo-svg" aria-hidden="true">
+              <rect width="96" height="96" rx="26" fill="#0D0F19"/>
+              <path d="M27.5 31 C27.5 29.2 29.5 28.1 31 29.1 L47.5 45.8 C48.8 47 48.8 49 47.5 50.2 L31 66.9 C29.5 67.9 27.5 66.8 27.5 65 Z" fill="#635BFF"/>
+              <path d="M46.5 31 C46.5 29.2 48.5 28.1 50 29.1 L66.5 45.8 C67.8 47 67.8 49 66.5 50.2 L50 66.9 C48.5 67.9 46.5 66.8 46.5 65 Z" fill="#818CF8"/>
+              <rect x="69" y="32" width="6" height="32" rx="3" fill="#38BDF8"/>
+            </svg>
+          </div>
+          <span class="brand-name">SkipMate</span>
+        </div>
+        <p class="footer-desc">
+          A smarter way to enjoy YouTube hands-free on Android. Spend less time reaching for your device and more time enjoying content.
+        </p>
+        <div class="footer-apk-badge">
+          <span>📦 Latest Package: SkipMate-v1.1.0.apk (Login &amp; Sync)</span>
+        </div>
+      </div>
+
+      <!-- Links Column 1: Navigation -->
+      <div class="footer-links-col">
+        <h4 class="footer-col-title">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#app-preview">App Preview</a></li>
+          <li><a href="#installation-guide">Installation Guide</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#about">About Founder</a></li>
+        </ul>
+      </div>
+
+      <!-- Links Column 2: Legal & Support -->
+      <div class="footer-links-col">
+        <h4 class="footer-col-title">Legal &amp; Support</h4>
+        <ul class="footer-links">
+          <li><button class="footer-link-btn" id="openPrivacyModal">Privacy Policy</button></li>
+          <li><button class="footer-link-btn" id="openTermsModal">Terms of Use</button></li>
+          <li><a href="mailto:support@skipmate.app" class="footer-link">Contact Support</a></li>
+          <li><a href="downloads/SkipMate-v1.1.0.apk" download="SkipMate-v1.1.0.apk" class="footer-link highlight">Download APK</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Legal Disclaimer & Copyright -->
+    <div class="container footer-bottom">
+      <p class="disclaimer-text">
+        Disclaimer: SkipMate is an independent Android utility and is not affiliated with, endorsed by, or sponsored by YouTube or Google LLC. YouTube is a registered trademark of Google LLC. SkipMate operates strictly using official Android Accessibility APIs on the user's device.
+      </p>
+      <div class="copyright-row">
+        <span>&copy; 2026 SkipMate. Developed by Abhishek K R. All rights reserved.</span>
+        <span>Version 1.1.0 (Build 2026.10)</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING DOWNLOAD TOAST NOTIFICATION -->
+  <div class="download-toast" id="downloadToast" role="alert" aria-live="polite">
+    <div class="toast-icon">🚀</div>
+    <div class="toast-body">
+      <strong>Download Started!</strong>
+      <span>SkipMate-v1.1.0.apk (21.5 MB) is downloading.</span>
+    </div>
+    <a href="#installation-guide" class="toast-action" id="toastGuideLink">How to Install &rarr;</a>
+    <button class="toast-close" id="closeToastBtn" aria-label="Dismiss">&times;</button>
+  </div>
+
+  <!-- PRIVACY POLICY MODAL -->
+  <div class="modal-backdrop" id="privacyModal" aria-hidden="true" role="dialog" aria-labelledby="privacyTitle">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 id="privacyTitle">Privacy Policy</h3>
+        <button class="modal-close-btn" data-close-modal>&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="alert-box alert-warning">
+          <strong>Notice:</strong> This is a standard transparency document for SkipMate. Review with legal counsel prior to commercial store distribution.
+        </div>
+        <h4>1. Commitment to Privacy</h4>
+        <p>SkipMate is designed to function strictly locally on your Android device. The core automatic skip assistant does not inspect, read, or transmit your browsing activity, video history, or personal data.</p>
+        
+        <h4>2. Android Accessibility Service Usage</h4>
+        <p>SkipMate requests the Android Accessibility Service permission solely to inspect user interface nodes in the official YouTube application for the presence of the standard "Skip Ads" control and trigger a simulated tap. No text entered on keyboards or private data is captured, logged, or uploaded.</p>
+
+        <h4>3. Firebase Authentication &amp; Firestore</h4>
+        <p>If you create an optional account to manage SkipMate Pro subscriptions, your email, name, and subscription tier are securely processed through Google Firebase. Passwords are never stored in plain text.</p>
+
+        <h4>4. Contact</h4>
+        <p>For questions regarding privacy, contact <code>privacy@skipmate.app</code>.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-close-modal>Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TERMS OF USE MODAL -->
+  <div class="modal-backdrop" id="termsModal" aria-hidden="true" role="dialog" aria-labelledby="termsTitle">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 id="termsTitle">Terms of Use</h3>
+        <button class="modal-close-btn" data-close-modal>&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="alert-box alert-warning">
+          <strong>Notice:</strong> Standard usage terms. Review with legal counsel prior to commercial distribution.
+        </div>
+        <h4>1. Acceptance of Terms</h4>
+        <p>By downloading, installing, or using SkipMate, you agree to these Terms of Use.</p>
+
+        <h4>2. Intended Purpose</h4>
+        <p>SkipMate is designed to provide hands-free convenience for users watching video content on Android devices. It does not tamper with, block, or modify advertising network streams or YouTube's binary code.</p>
+
+        <h4>3. Disclaimer of Warranties</h4>
+        <p>SkipMate is provided on an "as is" and "as available" basis. Changes to YouTube's interface layout or Android OS updates may impact the timing or availability of automated skip clicks.</p>
+
+        <h4>4. Governing Law</h4>
+        <p>These terms shall be governed in accordance with applicable laws.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-close-modal>Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>

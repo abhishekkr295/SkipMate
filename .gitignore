@@ -1,0 +1,112 @@
+# ==============================================================================
+# SkipMate - Official Project .gitignore
+# Covers: Android Studio, Gradle, Kotlin, Node.js, Firebase, Netlify, OS files
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Gradle & Android Build Outputs
+# ------------------------------------------------------------------------------
+.gradle/
+build/
+*/build/
+app/build/
+bin/
+gen/
+out/
+
+# Local machine environment settings (SDK paths, local properties)
+local.properties
+
+# Android Profiling & Native build caches
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ------------------------------------------------------------------------------
+# 2. Package & Binary Outputs
+# ------------------------------------------------------------------------------
+# Exclude binary build outputs from git to keep repository lightweight (<100MB)
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# (Optional: If you wish to commit the download APK for static landing page hosting,
+# uncomment the line below):
+# !LandingPage/downloads/*.apk
+
+# ------------------------------------------------------------------------------
+# 3. Android Studio & JetBrains IDE
+# ------------------------------------------------------------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+.navigation/
+
+# VS Code
+.vscode/
+
+# ------------------------------------------------------------------------------
+# 4. Keystores, Signing Keys & Certificates (CRITICAL SECURITY)
+# ------------------------------------------------------------------------------
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*.pk8
+signing.properties
+
+# ------------------------------------------------------------------------------
+# 5. Secrets, Credentials & Local Environment Files
+# ------------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.local
+
+# Firebase Service Account Credentials & Private Keys
+*serviceAccount*.json
+*service-account*.json
+*-credentials.json
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+.runtimeconfig.json
+
+# ------------------------------------------------------------------------------
+# 6. Firebase & Netlify CLI Local State
+# ------------------------------------------------------------------------------
+.firebase/
+.netlify/
+*/.netlify/
+
+# ------------------------------------------------------------------------------
+# 7. Node.js & Cloud Functions Backend (functions/, web/, LandingPage/)
+# ------------------------------------------------------------------------------
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ------------------------------------------------------------------------------
+# 8. OS & System Generated Files
+# ------------------------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+
+# ------------------------------------------------------------------------------
+# 9. Firebase Client Config Note:
+# 'app/google-services.json' contains client app identifiers.
+# If keeping this repository public and you wish to hide your project identifier,
+# uncomment the line below and maintain a 'google-services.json.example'.
+# ------------------------------------------------------------------------------
+# app/google-services.json

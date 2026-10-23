@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- First Minimal Play Arrow -->
+    <path
+        android:fillColor="#635BFF"
+        android:pathData="M33.5,37 C33.5,35.2 35.5,34.1 37,35.1 L53.5,51.8 C54.8,53 54.8,55 53.5,56.2 L37,72.9 C35.5,73.9 33.5,72.8 33.5,71 Z" />
+
+    <!-- Second Minimal Play Arrow -->
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M52.5,37 C52.5,35.2 54.5,34.1 56,35.1 L72.5,51.8 C73.8,53 73.8,55 72.5,56.2 L56,72.9 C54.5,73.9 52.5,72.8 52.5,71 Z" />
+
+    <!-- Sleek Rounded Vertical Skip Bar -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M75,38 C75,36 76.5,34.5 78.5,34.5 C80.5,34.5 82,36 82,38 L82,70 C82,72 80.5,73.5 78.5,73.5 C76.5,73.5 75,72 75,70 Z" />
+</vector>

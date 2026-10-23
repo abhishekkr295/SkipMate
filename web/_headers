@@ -1,0 +1,31 @@
+# Netlify Headers Configuration for SkipMate Landing Page
+
+# Serve Android APK with official package MIME type and ensure immediate fresh delivery
+/downloads/SkipMate-v1.1.0.apk
+  Content-Type: application/vnd.android.package-archive
+  Content-Disposition: attachment; filename="SkipMate-v1.1.0.apk"
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/downloads/*.apk
+  Content-Type: application/vnd.android.package-archive
+  Content-Disposition: attachment; filename="SkipMate-v1.1.0.apk"
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/*.apk
+  Content-Type: application/vnd.android.package-archive
+  Content-Disposition: attachment; filename="SkipMate-v1.1.0.apk"
+  Cache-Control: no-cache, no-store, must-revalidate
+
+# HTML pages - revalidate to get latest markup immediately
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Cache static styles and scripts with reasonable revalidation
+/*.css
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/*.js
+  Cache-Control: public, max-age=3600, must-revalidate
